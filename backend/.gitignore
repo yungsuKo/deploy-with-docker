@@ -1,3 +1,8 @@
+env
+.env.prod
+.env.stage
+.env.dev
+
 # compiled output
 /dist
 /node_modules
