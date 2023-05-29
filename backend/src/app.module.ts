@@ -35,11 +35,11 @@ import * as redisStore from 'cache-manager-redis-store';
     }),
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'my-database',
+      host: '34.64.134.205',
       port: 3306,
       username: 'root',
       password: '0000',
-      database: 'mydocker03',
+      database: 'myserver02',
       entities: [
         Board,
         User,
